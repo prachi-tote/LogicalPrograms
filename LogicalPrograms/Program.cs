@@ -4,15 +4,15 @@ namespace LogicalPrograms
 {
     class Program
     {
-        
-            static void Main(string[] args)
-            {
-                Console.WriteLine("Welcome to Logical Problem!");
-                Console.WriteLine("Reverse Number Program");
-                Console.WriteLine("Enter a number which you want to reverse");
-                ReverseNumber reverseNumber = new ReverseNumber();
-                reverseNumber.Reverse();
-            }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Logical Problem!");
+            Console.WriteLine("Reverse Number Program");
+            Console.WriteLine("Enter the number of distinct coupon numbers want to generate");
+            CouponNumber couponNumber = new CouponNumber();
+            couponNumber.CouponNum();
+        }
         }
     }
 
