@@ -4,12 +4,14 @@ namespace LogicalPrograms
 {
     class Program
     {
-        public static void Main(string[] args) 
-        {
-            Console.WriteLine("Welcome to Logical Programs");
-            Console.WriteLine("Welcome to Fibonacci Program");
-            Fibonacci fibonacci = new Fibonacci();
-            fibonacci.Fibonac();
+        
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Welcome to Logical Problem!");
+                Console.WriteLine("Perfect Number Program");
+                PerfectNumber perfect_Number = new PerfectNumber();
+                perfect_Number.PerfectNum();
+            }
         }
     }
-}
+
