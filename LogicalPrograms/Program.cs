@@ -8,9 +8,10 @@ namespace LogicalPrograms
             static void Main(string[] args)
             {
                 Console.WriteLine("Welcome to Logical Problem!");
-                Console.WriteLine("Perfect Number Program");
-                PerfectNumber perfect_Number = new PerfectNumber();
-                perfect_Number.PerfectNum();
+                Console.WriteLine("Prime Number Program");
+            Console.WriteLine("Enter a number to chek weather it is prime or not:");
+            PrimeNumber primeNumber = new PrimeNumber();
+                primeNumber.PrimeNum();
             }
         }
     }
