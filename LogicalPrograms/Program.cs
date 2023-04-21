@@ -8,10 +8,10 @@ namespace LogicalPrograms
             static void Main(string[] args)
             {
                 Console.WriteLine("Welcome to Logical Problem!");
-                Console.WriteLine("Prime Number Program");
-            Console.WriteLine("Enter a number to chek weather it is prime or not:");
-            PrimeNumber primeNumber = new PrimeNumber();
-                primeNumber.PrimeNum();
+                Console.WriteLine("Reverse Number Program");
+                Console.WriteLine("Enter a number which you want to reverse");
+                ReverseNumber reverseNumber = new ReverseNumber();
+                reverseNumber.Reverse();
             }
         }
     }
